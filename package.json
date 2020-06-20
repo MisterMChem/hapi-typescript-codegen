@@ -1,6 +1,6 @@
 {
   "name": "hapi-typescript-codegen",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "transform hapi route validation to typescript interfaces",
   "main": "bin/index.js",
   "preferGlobal": true,
