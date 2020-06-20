@@ -1,0 +1,30 @@
+{
+  "name": "hapi-typescript-codegen",
+  "version": "0.0.0",
+  "description": "transform hapi route validation to typescript interfaces",
+  "main": "bin/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "hapi-typescript-codegen": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "typescript",
+    "codegen",
+    "joi",
+    "schema",
+    "validate",
+    "route",
+    "configuration"
+  ],
+  "author": "matt meyers",
+  "license": "MIT",
+  "dependencies": {
+    "@manifoldco/swagger-to-ts": "^2.0.0",
+    "hapi-swagger": "^13.0.2",
+    "yargs": "^15.3.1"
+  }
+}
